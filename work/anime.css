@@ -1,0 +1,30 @@
+.wrapper {
+       				top:500px;
+       				left:50vw;
+       				width:100%;
+       				}
+
+.wrapper h3{
+        					background-color:#1c5207;
+        					border-radius:10px;
+        					padding:5px;
+        					marging:0;
+        					color:white;
+        					font-size:30px;
+        					text-align:center;
+        					}
+
+span:before{
+        				 content:'Safe Predictions';
+        				 animation:animate 15s infinite ;
+        						}
+@keyframes animate{
+        					0% {content:'“Money won is twice as sweet as money earned.”';}
+        					20% {content:'Do not let losses or wins knock you off keel emotionally.';}
+        					40% {content:'“Nobody has ever bet enough on a winning game.”';}
+        					60% {content:'“Once you start thinking you have nothing left to learn, you have everything to learn.”';}	
+        					80% {content:'“Luck never gives; it only lends.”';}
+        					100% {content:'Today is a win day';}
+        						}
+   
+      		
